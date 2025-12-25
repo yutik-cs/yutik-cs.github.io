@@ -9,4 +9,4 @@ title: Home
 #Welcome to Yutik-CS BLogs
 
 
-This is my personal blog about **coding, cybersecurity, and tech**.
+This is my personal blog about.
