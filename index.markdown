@@ -6,7 +6,7 @@ layout: default
 title: Home
 ---
 
-#Welcome to Yutik-CS BLogs
+<h3>Welcome to Yutik-CS Blogs</h3>
 
 
-This is my personal blog about.
+<h1>Coming Soon!</h1>
