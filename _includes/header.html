@@ -1,10 +1,60 @@
-<header class="p-3 bg-dark text-white">
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-            <img src="{{ site.baseurl }}/assets/images/style.css" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            Yutik-CS Blogs
-            </a>
+<header class="p-3 bg-white text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <img src="{{site.baseurl}}/assets/images/logo.gif" class="logo" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto ms-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="{{ site.baseurl }}/" class="nav-link px-3 theme-clr fs-20">Home</a></li>
+          <li><a href="#" class="nav-link px-3 text-secondary fs-20">About</a></li>
+          <li><a href="#" class="nav-link px-3 text-secondary fs-20">Blogs</a></li>
+        </ul>
+
+        <span class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3"> 
+          <button class="ping-btn btn rounded theme-clr" id="ping-me" data-bs-toggle="modal" data-bs-target="#contactModal">Ping Me</button>
+        </span>
+
+      </div>
+    </div>
+
+    <div class="contact-line" id="contact-line"></div>
+
+    <!-- Contact Form -->
+    <!-- <div class="modal fade" id="contactModal" tabindex="-1" aria-hidden="true">
+      <div id="contentMod" class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content rounded-4 shadow bg-white">
+
+          <div class="modal-header border-0 border-bottom border-secondary">
+            <h5 class="modal-title fw-semibold">Ping Me</h5>
+            <button type="button" class="modal-close-dot" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+            <form>
+
+              <div class="mb-3">
+                <label class="form-label text-dark">Your Email</label>
+                <input type="email"
+                      class="form-control"
+                      placeholder="you@example.com"
+                      required>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label text-dark">Message</label>
+                <textarea class="form-control" rows="4" placeholder="Write your message..."required></textarea>
+              </div>
+
+            </form>
+          </div>
+
+          <div class="modal-footer border-0">
+            <button type="submit" class="btn theme-clr">Send</button>
+          </div>
+
         </div>
-    </nav>
+      </div>
+    </div> -->
+
 </header>
